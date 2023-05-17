@@ -26,6 +26,7 @@
     "apollo-server-express": "^2.22.2",
     "bcrypt": "^5.0.1",
     "concurrently": "^6.0.2",
+    "debug": "^4.3.4",
     "express": "^4.17.1",
     "graphql": "^15.5.0",
     "graphql-tag": "^2.11.0",
