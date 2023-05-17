@@ -13,11 +13,11 @@ const recipeSchema = new Schema(
       required: true
     },
   },
-  {
-    toJSON: {
-      getters: true
-    }
-  }
+  // {
+  //   toJSON: {
+  //     getters: true
+  //   }
+  // }
 );
 
 const Recipe = model('Recipe', recipeSchema);

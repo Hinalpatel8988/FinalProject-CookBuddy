@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 
 import Home from './pages/Home';
 import Login from './pages/Login';
-import NoMatch from './pages/NoMatch';
+// import NoMatch from './pages/NoMatch';
 import Add from './pages/Add';
 import Search from './pages/Search';
 import SingleRecipe from './pages/SingleRecipe';
@@ -44,7 +44,7 @@ function App() {
               <Route exact path="/profile/:username?" component={Profile} />
               <Route exact path="/recipe/:id" component={SingleRecipe} />
 
-              <Route component={NoMatch} />
+              {/* <Route component={NoMatch} /> */}
             </Switch>
           </div>
           <Footer />

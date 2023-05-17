@@ -108,7 +108,7 @@ const Signup = () => {
       Auth.login(data.addUser.token);
       console.log(data);
     } catch (e) {
-      console.error(e);
+      console.error(error);
     }
   };
 

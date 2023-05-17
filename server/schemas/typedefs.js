@@ -10,7 +10,7 @@ type User {
 
 type Recipe {
   _id: ID
-  recipeText: String
+  recipeName: String
   username: String
 }
 

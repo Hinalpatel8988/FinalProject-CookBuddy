@@ -18,21 +18,10 @@ const userSchema = new Schema(
     password: {
       type: String,
       required: true,
-      minlength: 5
+      minlength: 5,
     },
-    thoughts: [
-      {
-        type: Schema.Types.ObjectId,
-        ref: 'Thought'
-      }
-    ],
-  },
-  {
-    toJSON: {
-      virtuals: true
-    }
-  }
-);
+  
+  });
 
 userSchema.pre('save', async function(next) {
   if (this.isNew || this.isModified('password')) {
