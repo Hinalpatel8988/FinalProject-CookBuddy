@@ -8,7 +8,7 @@ type User {
   recipes: [Recipe]
 }
 
-type Recipes {
+type Recipe {
   _id: ID
   recipeName: String
   username: String
